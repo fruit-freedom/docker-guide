@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  first_service:
+    image: service:latest
+    container_name: first_service
+    command: first-service
+  second_service:
+    image: service:latest
+    container_name: second_service
+    command: second-service
